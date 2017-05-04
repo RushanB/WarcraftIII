@@ -10,4 +10,10 @@
 
 @interface Unit : NSObject
 
+-(instancetype)initWithHP: (int)hp AP:(int)ap;
+
+@property (assign) int attackPower;
+
+@property (assign) int healthPoints;
+
 @end

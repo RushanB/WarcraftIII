@@ -10,4 +10,10 @@
 
 @implementation Peasant
 
+- (instancetype)init{
+    self = [super initWithHP: 35 AP: 0];
+    return self;
+}
+
+
 @end

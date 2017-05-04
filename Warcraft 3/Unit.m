@@ -10,4 +10,12 @@
 
 @implementation Unit
 
+
+-(instancetype)initWithHP: (int)hp AP:(int)ap{
+    _healthPoints = hp;
+    _attackPower = ap;
+    
+    return self;
+}
+
 @end
